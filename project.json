@@ -1,0 +1,10 @@
+{
+  "name": "lambda-auto-update-cloudfront-ips",
+  "description": "lambda auto update cloudfront ips",
+  "nameTemplate": "{{.Function.Name}}",
+  "memory": 128,
+  "timeout": 5,
+  "runtime": "python",
+  "defaultEnvironment": "dev",
+  "handler": "update_security_groups.lambda_handler"
+}
